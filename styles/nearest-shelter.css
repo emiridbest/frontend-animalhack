@@ -1,0 +1,138 @@
+body{
+  margin: 0; 
+}
+
+.new-body{
+  display: flex; 
+}
+.announcement{
+  font-size: 35px; 
+  font-weight: bold; 
+}
+
+.nearest-shelter,
+.other-shelters{ 
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  text-align: center; 
+}
+
+.nearest-shelter{
+  flex: 2; 
+  padding-bottom: 15px; 
+}
+
+.nearest-shelter button{
+  font-size: 20px; 
+  padding: 5px 7px 5px 7px; 
+  border-style: none; 
+  color: white; 
+  cursor: pointer; 
+}
+
+button:hover{
+  opacity: 0.8; 
+}
+
+button:active{
+  opacity: 0.6; 
+}
+
+.nearest-shelter,
+.nearest-shelter button,
+.other-title,
+.other-shelter-desc,
+.other-shelters button{
+  font-family: 'DM Sans', sans-serif; 
+}
+
+
+.volunteer{
+  background-color: red; 
+}
+
+.near-volunteer-container{
+  margin-right: 10px; 
+}
+
+.donate{
+  background-color: darkblue; 
+}
+
+.near-donate-container{
+  margin-left: 10px; 
+}
+
+.nearest-shelter-desc{
+  font-size: 28px; 
+}
+
+.other-shelters{
+  flex: 1; 
+  background-color: white; 
+  overflow-y: auto;
+  height: 600px;
+  padding-bottom: 15px; 
+  box-shadow: -10px 10px 5px rgba(0,0,0,.15);
+}
+
+.background{
+  position: fixed;
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  z-index: -1; 
+}
+
+.background-img{
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover;
+  object-position: center;
+}
+
+.other-title{
+  font-size: 30px; 
+  font-weight: bold; 
+}
+
+.other-shelter-desc{
+  font-size: 20px; 
+}
+
+.other-shelters button{
+  font-size: 17px; 
+  border-style: none; 
+  cursor: pointer; 
+  color: white; 
+  padding: 5px 7px 5px 7px; 
+}
+
+.other-shelter-volunteer{
+  background-color: red; 
+}
+
+.far-volunteer-container{
+  margin-right: 10px; 
+}
+
+.other-shelter-donate{
+  background-color: blue;
+}
+
+.far-donate-container{
+  margin-left: 10px; 
+}
+
+.one-shelter{
+  border-bottom: 1px solid rgb(85, 85, 85);
+  padding-bottom: 15px; 
+}
+
+@media (max-width: 617px){
+  .new-body{
+    flex-direction: column; 
+  }
+}

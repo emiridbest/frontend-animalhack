@@ -1,0 +1,28 @@
+Hello, team member! I wasn't able to complete these, but I believe with the help of your expertise, we can make this website possible! Here is a to-do list:
+
+  index.html
+  - in homepage, use a Google Maps API to have user enter a location
+  - location must be in Alberta, if not, then the website asks for user to try again
+  - homepage will redirect to nearest-shelter.html when clicking submit
+
+  nearest-shelter.html
+  - the nearest shelter will have the shelter's name updated and the distance in km from their area to the shelter
+  - every shelter you need for reference can be found as options in shelter-form.html
+  - all the other animal shelters on the right side will have the names and distance updated too, and they will be in order for closest to furthest
+  - volunteer button will lead to volunteer-info.html
+
+  volunteer-info.html
+  - all the info will be updated from the volunteer form that each shelter fills out
+  - user can pick a date they are available and see if any volunteer opportunities pop up, if there is none, then no volunteer opportunities pop up
+  - the more dates the animal shelter adds from the form, the more volunteer opportunities will pop up, and if none are filled, then nothing shows up 
+  - not sure exactly how it should work, but you might have to copy the html file multiple times for each organization
+  - when someone clicks volunteer, an email should be sent to the animal shelter saying "(user) has volunteered" 
+
+  shelter-form.html
+  - this form is not a part of the website
+  - also not sure how it works, but you might have to copy this html file multiple times for each organization
+  - this form will determine what goes into volunteer-info.html
+  - try to match everything in the form to everything in volunteer-info.html 
+
+
+When you send it back, I'll add in the donate links and images for each animal shelter. Remember, have fun coding! 
